@@ -1,0 +1,302 @@
+VERSION "" 
+
+
+NS_ :
+        NS_DESC_
+        CM_
+        BA_DEF_
+        BA_
+        VAL_
+        CAT_DEF_
+        CAT_
+        FILTER
+        BA_DEF_DEF_
+        EV_DATA_
+        ENVVAR_DATA_
+        SGTYPE_
+        SGTYPE_VAL_
+        BA_DEF_SGTYPE_
+        BA_SGTYPE_
+        SIG_TYPE_REF_
+        VAL_TABLE_
+        SIG_GROUP_
+        SIG_VALTYPE_
+        SIGTYPE_VALTYPE_
+        BO_TX_BU_
+        BA_DEF_REL_
+        BA_REL_
+        BA_DEF_DEF_REL_
+        BU_SG_REL_
+        BU_EV_REL_
+        BU_BO_REL_
+        SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS
+
+
+BO_ 272 Total_DataPage: 103 BMS
+ SG_ Protocol_version : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Manufacturer_Number : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Product_Type : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Hardware_Version : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Firmware_Version : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Battery_Percentage : 40|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Reaminning_Battery : 48|16@1+ (10,0) [0|655350] "mAh" Vector__XXX
+ SG_ FCC : 64|16@1+ (10,0) [0|655350] "mAh" Vector__XXX
+ SG_ Battery_Voltage : 80|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Charge_Current : 96|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Expected_ChgVoltage : 112|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Expected_ChgCurrent : 128|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Reserve : 144|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Discharge_Current : 160|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Average_Current : 176|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Tempreture : 192|8@1+ (1,-100) [-100|155] "℃" Vector__XXX
+ SG_ Cell_Max_Voltage : 200|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Cell_Min_Voltage : 216|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Cycle_Times : 232|16@1+ (1,0) [0|65535] "次" Vector__XXX
+ SG_ SOH : 248|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Dchg_OC1 : 256|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC2 : 257|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC3 : 258|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC4 : 259|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charging : 262|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OV_L1 : 264|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OV_L2 : 265|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_OC1 : 266|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_OC2 : 267|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Precharge_Fault : 268|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Short : 270|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LV_Protect : 272|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inner_Comm_Fault : 273|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PCB_HT_protect : 274|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_HT_L2 : 275|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_HT_L1 : 276|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_HT : 277|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_LT : 278|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_LT : 279|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Battery_abnormal : 280|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_abnormal : 281|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_abnormal : 282|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Switch_OFF : 284|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_Relay_Close : 285|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_Relay_Close : 287|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Remaining_charging_time : 288|8@1+ (1,0) [0|255] "min" Vector__XXX
+ SG_ CellU01 : 296|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU02 : 312|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU03 : 328|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU04 : 344|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU05 : 360|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU06 : 376|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU07 : 392|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU08 : 408|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU09 : 424|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU10 : 440|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU11 : 456|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU12 : 472|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU13 : 488|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU14 : 504|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU15 : 520|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ CellU16 : 536|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Battery_Production_Day : 552|5@1+ (1,0) [0|31] "日" Vector__XXX
+ SG_ Battery_Production_Month : 557|4@1+ (1,0) [0|15] "月" Vector__XXX
+ SG_ Battery_Production_year : 561|7@1+ (1,1980) [1980|2107] "年" Vector__XXX
+ SG_ Reserve1 : 568|192@1+ (1,0) [0|6277101735386680763835789423207666416102355444464034512896] "" Vector__XXX
+
+BO_ 273 Usually_DataPage: 23 BMS
+ SG_ Battery_Percentage : 0|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Battery_Voltage1 : 8|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Charge_Current1 : 24|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Expected_ChgVoltage1 : 40|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Expected_ChgCurrent1 : 56|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Reserve3 : 72|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Discharge_Current1 : 88|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Tempreture1 : 104|8@1+ (1,-100) [-100|155] "℃" Vector__XXX
+ SG_ Cell_Max_Voltage1 : 112|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Cell_Min_Voltage1 : 128|16@1+ (1,0) [0|65535] "mv" Vector__XXX
+ SG_ Dchg_OC1_1 : 144|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC2_1 : 145|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC3_1 : 146|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_OC4_1 : 147|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Charging_1 : 150|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OV_L1_1 : 152|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OV_L2_1 : 153|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_OC1_1 : 154|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_OC2_1 : 155|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Precharge_Fault_1 : 156|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Short_1 : 158|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LV_Protect_1 : 160|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inner_Comm_Fault_1 : 161|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PCB_HT_protect_1 : 162|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_HT_L2_1 : 163|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_HT_L1_1 : 164|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_HT_1 : 165|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_LT_1 : 166|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_LT_1 : 167|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Battery_abnormal_1 : 168|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_abnormal_1 : 169|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_abnormal_1 : 170|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Switch_OFF_1 : 172|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dchg_Relay_Close_1 : 173|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Chg_Relay_Close_1 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Remaining_charging_time1 : 176|8@1+ (1,0) [0|255] "min" Vector__XXX
+
+
+
+CM_ BO_ 272 "总数据包";
+CM_ SG_ 272 Protocol_version "协议版本";
+CM_ SG_ 272 Manufacturer_Number "厂家编号";
+CM_ SG_ 272 Product_Type "产品型号";
+CM_ SG_ 272 Hardware_Version "硬件版本号";
+CM_ SG_ 272 Firmware_Version "固件版本号";
+CM_ SG_ 272 Battery_Percentage "电量百分比";
+CM_ SG_ 272 Reaminning_Battery "剩余电量";
+CM_ SG_ 272 FCC "FCC";
+CM_ SG_ 272 Battery_Voltage "电池电压";
+CM_ SG_ 272 Charge_Current "充电电流";
+CM_ SG_ 272 Expected_ChgVoltage "期望充电电压";
+CM_ SG_ 272 Expected_ChgCurrent "期望充电电流";
+CM_ SG_ 272 Reserve "保留";
+CM_ SG_ 272 Discharge_Current "主通道放电电流";
+CM_ SG_ 272 Average_Current "平均电流";
+CM_ SG_ 272 Tempreture "温度";
+CM_ SG_ 272 Cell_Max_Voltage "电芯最高电压";
+CM_ SG_ 272 Cell_Min_Voltage "电芯最低电压";
+CM_ SG_ 272 Cycle_Times "循环次数";
+CM_ SG_ 272 SOH "SOH";
+CM_ SG_ 272 Dchg_OC1 "主通道过流L1";
+CM_ SG_ 272 Dchg_OC2 "主通道过流L2";
+CM_ SG_ 272 Dchg_OC3 "主通道过流L3";
+CM_ SG_ 272 Dchg_OC4 "主通道过流L4";
+CM_ SG_ 272 Charging "充电中";
+CM_ SG_ 272 OV_L1 "过压L1";
+CM_ SG_ 272 OV_L2 "过压L2";
+CM_ SG_ 272 Chg_OC1 "充电过流L1";
+CM_ SG_ 272 Chg_OC2 "充电过流L2";
+CM_ SG_ 272 Precharge_Fault "主通道预充电故障";
+CM_ SG_ 272 Short "主通道短路(继电器粘连)";
+CM_ SG_ 272 LV_Protect "过放欠压保护";
+CM_ SG_ 272 Inner_Comm_Fault "内部通信故障";
+CM_ SG_ 272 PCB_HT_protect "PCB过温保护";
+CM_ SG_ 272 Chg_HT_L2 "充电过温保护L2";
+CM_ SG_ 272 Chg_HT_L1 "充电过温保护L1";
+CM_ SG_ 272 Dchg_HT "放电过温保护";
+CM_ SG_ 272 Chg_LT "充电低温保护";
+CM_ SG_ 272 Dchg_LT "放电低温保护";
+CM_ SG_ 272 Battery_abnormal "电芯异常（压差过大或者SOH低于70%）";
+CM_ SG_ 272 Chg_abnormal "充电异常（有3级及以上故障置位）";
+CM_ SG_ 272 Dchg_abnormal "放电异常（有3级及以上故障置位）";
+CM_ SG_ 272 Switch_OFF "开关断开";
+CM_ SG_ 272 Dchg_Relay_Close "放电继电器开启";
+CM_ SG_ 272 Chg_Relay_Close "充电继电器开启";
+CM_ SG_ 272 Remaining_charging_time "预计充满时间";
+CM_ SG_ 272 CellU01 "单体电压01";
+CM_ SG_ 272 CellU02 "单体电压02";
+CM_ SG_ 272 CellU03 "单体电压03";
+CM_ SG_ 272 CellU04 "单体电压04";
+CM_ SG_ 272 CellU05 "单体电压05";
+CM_ SG_ 272 CellU06 "单体电压06";
+CM_ SG_ 272 CellU07 "单体电压07";
+CM_ SG_ 272 CellU08 "单体电压08";
+CM_ SG_ 272 CellU09 "单体电压09";
+CM_ SG_ 272 CellU10 "单体电压10";
+CM_ SG_ 272 CellU11 "单体电压11";
+CM_ SG_ 272 CellU12 "单体电压12";
+CM_ SG_ 272 CellU13 "单体电压13";
+CM_ SG_ 272 CellU14 "单体电压14";
+CM_ SG_ 272 CellU15 "单体电压15";
+CM_ SG_ 272 CellU16 "单体电压16";
+CM_ SG_ 272 Battery_Production_Day "电池生产日";
+CM_ SG_ 272 Battery_Production_Month "电池生产月";
+CM_ SG_ 272 Battery_Production_year "电池生产年";
+CM_ SG_ 272 Reserve1 "预留空间32字节";
+CM_ BO_ 273 "总数据包";
+CM_ SG_ 273 Battery_Percentage "电量百分比";
+CM_ SG_ 273 Battery_Voltage1 "电池电压";
+CM_ SG_ 273 Charge_Current1 "充电电流";
+CM_ SG_ 273 Expected_ChgVoltage1 "期望充电电压";
+CM_ SG_ 273 Expected_ChgCurrent1 "期望充电电流";
+CM_ SG_ 273 Reserve3 "保留";
+CM_ SG_ 273 Discharge_Current1 "主通道放电电流";
+CM_ SG_ 273 Tempreture1 "温度";
+CM_ SG_ 273 Cell_Max_Voltage1 "电芯最高电压";
+CM_ SG_ 273 Cell_Min_Voltage1 "电芯最低电压";
+CM_ SG_ 273 Dchg_OC1_1 "主通道过流L1";
+CM_ SG_ 273 Dchg_OC2_1 "主通道过流L2";
+CM_ SG_ 273 Dchg_OC3_1 "主通道过流L3";
+CM_ SG_ 273 Dchg_OC4_1 "主通道过流L4";
+CM_ SG_ 273 Charging_1 "充电中";
+CM_ SG_ 273 OV_L1_1 "过压L1";
+CM_ SG_ 273 OV_L2_1 "过压L2";
+CM_ SG_ 273 Chg_OC1_1 "充电过流L1";
+CM_ SG_ 273 Chg_OC2_1 "充电过流L2";
+CM_ SG_ 273 Precharge_Fault_1 "主通道预充电故障";
+CM_ SG_ 273 Short_1 "主通道短路(继电器粘连)";
+CM_ SG_ 273 LV_Protect_1 "过放欠压保护";
+CM_ SG_ 273 Inner_Comm_Fault_1 "内部通信故障";
+CM_ SG_ 273 PCB_HT_protect_1 "PCB过温保护";
+CM_ SG_ 273 Chg_HT_L2_1 "充电过温保护L2";
+CM_ SG_ 273 Chg_HT_L1_1 "充电过温保护L1";
+CM_ SG_ 273 Dchg_HT_1 "放电过温保护";
+CM_ SG_ 273 Chg_LT_1 "充电低温保护";
+CM_ SG_ 273 Dchg_LT_1 "放电低温保护";
+CM_ SG_ 273 Battery_abnormal_1 "电芯异常（压差过大或者SOH低于70%）";
+CM_ SG_ 273 Chg_abnormal_1 "充电异常（有3级及以上故障置位）";
+CM_ SG_ 273 Dchg_abnormal_1 "放电异常（有3级及以上故障置位）";
+CM_ SG_ 273 Switch_OFF_1 "开关断开";
+CM_ SG_ 273 Dchg_Relay_Close_1 "放电继电器开启";
+CM_ SG_ 273 Chg_Relay_Close_1 "充电继电器开启";
+CM_ SG_ 273 Remaining_charging_time1 "预计充满时间";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+VAL_ 272 Dchg_OC1 0 "无效" 1 "有效";
+VAL_ 272 Dchg_OC2 0 "无效" 1 "有效";
+VAL_ 272 Dchg_OC3 0 "无效" 1 "有效";
+VAL_ 272 Dchg_OC4 0 "无效" 1 "有效";
+VAL_ 272 Charging 0 "放电或静置" 1 "充电中";
+VAL_ 272 OV_L1 0 "无效" 1 "有效";
+VAL_ 272 OV_L2 0 "无效" 1 "有效";
+VAL_ 272 Chg_OC1 0 "无效" 1 "有效";
+VAL_ 272 Chg_OC2 0 "无效" 1 "有效";
+VAL_ 272 Precharge_Fault 0 "无效" 1 "有效";
+VAL_ 272 Short 0 "无效" 1 "有效";
+VAL_ 272 LV_Protect 0 "无效" 1 "有效";
+VAL_ 272 Inner_Comm_Fault 0 "无效" 1 "有效";
+VAL_ 272 PCB_HT_protect 0 "无效" 1 "有效";
+VAL_ 272 Chg_HT_L2 0 "无效" 1 "有效";
+VAL_ 272 Chg_HT_L1 0 "无效" 1 "有效";
+VAL_ 272 Dchg_HT 0 "无效" 1 "有效";
+VAL_ 272 Chg_LT 0 "无效" 1 "有效";
+VAL_ 272 Dchg_LT 0 "无效" 1 "有效";
+VAL_ 272 Battery_abnormal 0 "无效" 1 "有效";
+VAL_ 272 Chg_abnormal 0 "无效" 1 "有效";
+VAL_ 272 Dchg_abnormal 0 "无效" 1 "有效";
+VAL_ 272 Switch_OFF 0 "开关连接" 1 "开关断开";
+VAL_ 272 Dchg_Relay_Close 0 "断开" 1 "闭合";
+VAL_ 272 Chg_Relay_Close 0 "断开" 1 "闭合";
+VAL_ 273 Dchg_OC1_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_OC2_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_OC3_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_OC4_1 0 "无效" 1 "有效";
+VAL_ 273 Charging_1 0 "放电或静置" 1 "充电中";
+VAL_ 273 OV_L1_1 0 "无效" 1 "有效";
+VAL_ 273 OV_L2_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_OC1_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_OC2_1 0 "无效" 1 "有效";
+VAL_ 273 Precharge_Fault_1 0 "无效" 1 "有效";
+VAL_ 273 Short_1 0 "无效" 1 "有效";
+VAL_ 273 LV_Protect_1 0 "无效" 1 "有效";
+VAL_ 273 Inner_Comm_Fault_1 0 "无效" 1 "有效";
+VAL_ 273 PCB_HT_protect_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_HT_L2_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_HT_L1_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_HT_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_LT_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_LT_1 0 "无效" 1 "有效";
+VAL_ 273 Battery_abnormal_1 0 "无效" 1 "有效";
+VAL_ 273 Chg_abnormal_1 0 "无效" 1 "有效";
+VAL_ 273 Dchg_abnormal_1 0 "无效" 1 "有效";
+VAL_ 273 Switch_OFF_1 0 "开关连接" 1 "开关断开";
+VAL_ 273 Dchg_Relay_Close_1 0 "断开" 1 "闭合";
+VAL_ 273 Chg_Relay_Close_1 0 "断开" 1 "闭合";
