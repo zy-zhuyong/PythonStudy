@@ -105,7 +105,7 @@ def printinfo3(agr1, **vardict):
 printinfo3(1, a=1, b=2)
 print('\n')
 
-"""匿名函数
+"""匿名函数lambda
 所谓匿名，意义在于不再用def这样的标准语句的形式定义一个函数
 基本语法：lambda [agr1,agr2,....,agrn]:experession
 
