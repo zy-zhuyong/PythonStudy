@@ -24,4 +24,6 @@ print(qeque.popleft())
 # 列表推导式
 vec = [2, 4, 6]
 print([3 * x for x in vec])
-print([[x,x*x]for x in vec])
+print([[x, x * x] for x in vec if x > 2])
+
+

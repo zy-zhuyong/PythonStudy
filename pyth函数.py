@@ -60,7 +60,8 @@ printinfo(name='Jack')  # 函数调用时并没有传入age的值
 printinfo('Bob', 34)
 print('\n')
 
-"""不定长参数!!!!!!!!!!!!!!
+"""
+不定长参数!!!!!!!!!!!!!!
 def functionname( [formal_args,] *var_args_tuple ):
      #函数文档字符串
     function_suite

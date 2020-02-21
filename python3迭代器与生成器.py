@@ -12,8 +12,8 @@ import sys
 
 # list = range(1,5)
 # it = iter(list)
-# # for x in it:
-# #     print(x,end = ' ')
+# for x in it:
+#     print(x,end = ' ')
 #
 # """使用next（）函数"""
 #
@@ -26,6 +26,12 @@ import sys
 
 """ StopIteration异常用于表示迭代的完成，防止出现无限循环的情况吗 """
 
+"""
+生成器（generator）
+跟普通函数不同生成器是一个返回迭代器的函数，只能用于迭代操作，更简单一点理解生成器就是一个迭代器。
+在调用生成器时，每次遇到yield函数会暂停并保存当前所有的运行信息，返回yield的值，并在下一次执行next（）方法时从当前
+位置继续运行
+"""
 
 def fibonacci(n):
     a, b, counter = 0, 1, 0
@@ -37,7 +43,7 @@ def fibonacci(n):
         counter += 1
 
 
-f = fibonacci(10)
+f = fibonacci(3)  # f 是一个迭代器，由生成器返回生成
 
 while True:
     try:
