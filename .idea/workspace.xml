@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53303af1-d4a1-4919-abee-c761a119eca3" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/python面向对象.py" afterDir="false" />
+    <list default="true" id="53303af1-d4a1-4919-abee-c761a119eca3" name="默认" comment="默认">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python3迭代器与生成器.py" beforeDir="false" afterPath="$PROJECT_DIR$/python3迭代器与生成器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python数据结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/python数据结构.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/python模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyth函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyth函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/test4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.26985744" />
   </component>
-  <component name="RunManager" selected="Python.test11">
+  <component name="RunManager" selected="Python.test5">
     <configuration default="true" type="tests" factoryName="不至于">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,6 +251,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -269,9 +287,11 @@
       <item itemvalue="Python.Python字典" />
       <item itemvalue="Python.python数据结构" />
       <item itemvalue="Python.python3迭代器与生成器" />
+      <item itemvalue="Python.test5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test5" />
         <item itemvalue="Python.python数据结构" />
         <item itemvalue="Python.python3迭代器与生成器" />
         <item itemvalue="Python.Python字典" />
@@ -333,7 +353,17 @@
       <workItem from="1581786134947" duration="8000" />
       <workItem from="1582120866302" duration="607000" />
       <workItem from="1582121698391" duration="1748000" />
+      <workItem from="1582260817365" duration="704000" />
+      <workItem from="1582343066967" duration="1254000" />
     </task>
+    <task id="LOCAL-00001" summary="默认">
+      <created>1582260977745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582260977745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -347,6 +377,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579326163413">
@@ -373,26 +407,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="122" key="#study/0.0.1920.1040@0.0.1920.1040" timestamp="1578549061993" />
+    <state x="598" y="28" key="CommitChangelistDialog2" timestamp="1582260976845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582260976845" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1579326395405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579326395405" />
-    <state width="534" height="877" key="GridCell.Tab.0.bottom" timestamp="1581494845870">
+    <state width="534" height="877" key="GridCell.Tab.0.bottom" timestamp="1582261521261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="534" height="877" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581494845870" />
-    <state width="534" height="877" key="GridCell.Tab.0.center" timestamp="1581494845869">
+    <state width="534" height="877" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582261521261" />
+    <state width="534" height="877" key="GridCell.Tab.0.center" timestamp="1582261521261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="534" height="877" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581494845869" />
-    <state width="534" height="877" key="GridCell.Tab.0.left" timestamp="1581494845869">
+    <state width="534" height="877" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582261521261" />
+    <state width="534" height="877" key="GridCell.Tab.0.left" timestamp="1582261521261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="534" height="877" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581494845869" />
-    <state width="534" height="877" key="GridCell.Tab.0.right" timestamp="1581494845869">
+    <state width="534" height="877" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582261521261" />
+    <state width="534" height="877" key="GridCell.Tab.0.right" timestamp="1582261521261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="534" height="877" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581494845869" />
+    <state width="534" height="877" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582261521261" />
     <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1579231868670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -417,10 +455,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="315" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582122773861" />
-    <state x="616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582260820163">
+    <state x="616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582343068523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582260820163" />
+    <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582343068523" />
     <state x="735" y="195" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578877583269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -454,7 +492,7 @@
     <SUITE FILE_PATH="coverage/PythonStudy$python.coverage" NAME="python模块 Coverage Results" MODIFIED="1581494845864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$study.coverage" NAME="study Coverage Results" MODIFIED="1578549875790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$pyth.coverage" NAME="pyth函数 Coverage Results" MODIFIED="1579232395881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonStudy$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1579324978532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1582261356543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$MyClass.coverage" NAME="MyClass Coverage Results" MODIFIED="1578549298037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PythonStudy$autopowerdown.coverage" NAME="autopowerdown Coverage Results" MODIFIED="1579445652209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
